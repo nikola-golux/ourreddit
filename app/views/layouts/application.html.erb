@@ -9,6 +9,10 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render "layouts/nav" %>
+
+    <div style="padding-left: 5%; padding-right: 5%;">
+      <%= yield %>
+    </div>
   </body>
 </html>
