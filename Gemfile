@@ -22,6 +22,10 @@ gem 'acts_as_votable', '~> 0.10.0'
 gem 'simple_form', '~> 3.3', '>= 3.3.1'
 gem 'record_tag_helper', '~> 1.0'
 
+group :development do
+  gem 'capistrano', '~> 3.6'
+  gem 'capistrano-rails', '~> 1.1'
+end
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
